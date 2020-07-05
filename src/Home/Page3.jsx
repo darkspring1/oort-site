@@ -17,10 +17,10 @@ function Page3() {
         <OverPack>
           <QueueAnim key="queue" type="bottom" leaveReverse className="page3-content">
             <Row>
-              <Col span={5} offset={7}>
+              <Col md={{ span: 6, offset: 6 }} xs={24} sm={24}>
                 <img src={ipfsmainLog} alt="ipfsmainLogo" />
               </Col>
-              <Col span={5}>
+              <Col md={6} xs={24} sm={24}>
                 <img src={polyientLabsLogo} alt="polyientLabsLogo " />
               </Col>
             </Row>
