@@ -1,4 +1,5 @@
-@import './default.less';
+@import "~antd/lib/style/themes/default.less";
+@import "./default.less";
 @import "~antd/lib/style/mixins/clearfix.less";
 
 @header-height: 80px;
@@ -37,6 +38,11 @@
 }
 
 #menu {
+  @media 
+  (min-width: @screen-xs-min) and (max-width: @screen-sm-max) {
+    display: none;
+  }
+
   float: right;
   overflow: hidden;
   height: 64px;
@@ -61,6 +67,13 @@
     }
   }
 }
+
+#collapsible-menu {
+  @media (min-width: @screen-md-min) {
+    display: none;
+  }
+}
+
 
 #preview {
   padding-top: 17px;
