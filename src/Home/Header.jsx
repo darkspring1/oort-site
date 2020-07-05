@@ -52,7 +52,7 @@ class Header extends React.Component {
             visible={menuVisible}
             arrowPointAtCenter
             onVisibleChange={this.onMenuVisibleChange}>
-              <Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16 }}>
+              <Button type="primary" onClick={this.toggleCollapsed} style={{ float: 'left', marginBottom: 16 }}>
                 {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined)}
               </Button>
           </Popover>

@@ -245,12 +245,13 @@
   }
 
   .home-banner-anim {
-    display: none;
+    // display: none;
   }
 
+  
   .banner-wrapper {
     width: 80%;
-    height: calc(~"100vh - 64px");
+    // height: calc(~"100vh - 64px");
     overflow: hidden;
     .banner-title-wrapper, .banner-image-wrapper {
       display: block;
@@ -260,7 +261,7 @@
     }
     .banner-title-wrapper {
       text-align: center;
-      max-width: 480px;
+      // max-width: 480px;
 
       .button-wrapper {
         text-align: center;
@@ -280,6 +281,7 @@
       margin: 10vh auto 5vh;
     }
   }
+  
   .home-page {
     width: 90%;
   }
@@ -327,5 +329,12 @@
   }
   .page2 {
     height: 648px;
+  }
+}
+
+
+@media only screen and (min-width: @screen-md) {
+  .banner-wrapper {
+    margin-top: 150px;
   }
 }
