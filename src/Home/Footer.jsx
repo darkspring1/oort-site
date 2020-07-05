@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col, Button } from 'antd';
 import { MediumOutlined, TwitterOutlined } from '@ant-design/icons';
-import { DiscordIcon, TelegramIcon } from './Icons'
+import { DiscordIcon, TelegramIcon } from './component/Icons'
 
 function Footer() {
 
