@@ -3,15 +3,10 @@ import React from 'react';
 import { OverPack } from 'rc-scroll-anim';
 import QueueAnim from 'rc-queue-anim';
 
-const style = {
-  background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ZsWYzLOItgeaWDSsXdZd.svg) no-repeat bottom',
-  'background-size': '100%',
-  height: '470px',
-};
 
 function Page2() {
   return (
-    <div id="about" className="home-page page2" style={style}>
+    <div id="about" className="home-page page2">
       <div className="home-page-wrapper">
         <div className="title-line-wrapper page-line">
           <div className="title-line" />

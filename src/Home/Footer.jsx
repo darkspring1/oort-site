@@ -10,11 +10,10 @@ function Footer() {
     <footer id="footer" className="dark">
       <Row className="bottom-bar">
         <Col lg={6} sm={24}>
-          <div className="media-button">
+          <div className="media-buttons">
             <a href="https://twitter.com/oortdigital" >
               <Button ghost size="small" icon={<TwitterOutlined />} />
             </a>
-            
             <a href="https://t.me/oortdigital" >
               <Button ghost size="small" icon={<TelegramIcon />} />
             </a>
@@ -24,7 +23,6 @@ function Footer() {
             <a href="https://discord.gg/E6YEsb" >
               <Button ghost size="small" icon={<DiscordIcon />} />
             </a>
-
           </div>
         </Col>
         <Col lg={18} sm={24}>
