@@ -27,7 +27,6 @@ a {
   width: 100%;
   color: #697b8c;
   .ant-btn {
-    min-width: 110px;
     height: 40px;
     border-radius: 20px;
     font-size: 16px;
@@ -168,10 +167,14 @@ svg g {
 
   .page2-content {
     will-change: transform;
+
+    .page-content {
+      font-size: 18px;
+    }
   }
 }
 
-.page2-line {
+.page-line {
   margin: 148px auto 24px;
   width: 114px;
 
@@ -232,4 +235,24 @@ svg g {
   75%, 100% {
     transform: translateX(178px);
   }
+}
+
+
+/** page3 **/
+.page3 {
+  text-align: center;
+  height: 500px;
+
+  .page3-content {
+    will-change: transform;
+    margin-top: 50px;
+    .page-content {
+      font-size: 18px;
+    }
+
+    img {
+      height: 200px;
+    }
+  }
+
 }

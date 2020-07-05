@@ -3,8 +3,7 @@ import React from 'react';
 import { Row, Col, Icon, Menu, Popover } from 'antd';
 import { MediumOutlined, TwitterOutlined } from '@ant-design/icons';
 import { enquireScreen } from 'enquire-js';
-
-const LOGO_URL = 'https://gw.alipayobjects.com/zos/rmsportal/gVAKqIsuJCepKNbgbSwE.svg';
+import Logo from './static/logo.png';
 
 class Header extends React.Component {
   state = {
@@ -24,7 +23,7 @@ class Header extends React.Component {
     const menu = (
       <Menu mode={menuMode} id="nav" key="nav">
         <Menu.Item key="about">
-          <a>About</a>
+          <a href="#about">About</a>
         </Menu.Item>
         <Menu.Item key="twitter" icon={<TwitterOutlined />}>
           <a href="https://mobile.twitter.com/oortdigital" />
@@ -35,15 +34,6 @@ class Header extends React.Component {
         <Menu.Item key="docs">
           <a>Docs</a>
         </Menu.Item>
-        {
-          menuMode === 'inline' && (
-            <Menu.Item key="preview">
-              <a target="_blank" href="http://preview.pro.ant.design/" rel="noopener noreferrer">
-                预览
-              </a>
-            </Menu.Item>
-          )
-        }
       </Menu>
     );
 
@@ -69,24 +59,12 @@ class Header extends React.Component {
         <Row>
           <Col xxl={4} xl={5} lg={8} md={8} sm={24} xs={24}>
             <div id="logo" to="/">
-              <img src={LOGO_URL} alt="logo" />
+              <img src={Logo} alt="logo " />
               <span>OORT DIGITAL</span>
             </div>
           </Col>
           <Col xxl={20} xl={19} lg={16} md={16} sm={0} xs={0}>
             <div className="header-meta">
-              {/* <div id="preview">
-                <a
-                  id="preview-button"
-                  target="_blank"
-                  href="http://preview.pro.ant.design"
-                  rel="noopener noreferrer"
-                >
-                  <Button icon="eye-o">
-                    预览
-                  </Button>
-                </a>
-              </div> */}
               {menuMode === 'horizontal' ? <div id="menu">{menu}</div> : null}
             </div>
           </Col>

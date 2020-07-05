@@ -11,9 +11,9 @@ const style = {
 
 function Page2() {
   return (
-    <div className="home-page page2" style={style}>
+    <div id="about" className="home-page page2" style={style}>
       <div className="home-page-wrapper">
-        <div className="title-line-wrapper page2-line">
+        <div className="title-line-wrapper page-line">
           <div className="title-line" />
         </div>
         <h2>Who <span>We</span> are</h2>
