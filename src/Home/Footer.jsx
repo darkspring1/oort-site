@@ -20,7 +20,7 @@ function Footer() {
             <a href="https://medium.com/oort-digital" >
               <Button ghost size="small" icon={<MediumOutlined />} />
             </a>
-            <a href="https://discord.gg/E6YEsb" >
+            <a href="https://discord.gg/WA6vfk" >
               <Button ghost size="small" icon={<DiscordIcon />} />
             </a>
           </div>
