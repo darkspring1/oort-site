@@ -16,14 +16,14 @@ function Page3() {
         <h2>Strategic Partners</h2>
         <OverPack>
           <QueueAnim key="queue" type="bottom" leaveReverse className="page3-content">
-            <Row>
-              <Col md={{ span: 6, offset: 6 }} xs={24} sm={24}>
-                <img src={ipfsmainLog} alt="ipfsmainLogo" />
+            {/*<Row>
+               <Col md={{ span: 6, offset: 6 }} xs={24} sm={24}> 
+                 /<img src={ipfsmainLog} alt="ipfsmainLogo" />
               </Col>
               <Col md={6} xs={24} sm={24}>
-                <img src={polyientLabsLogo} alt="polyientLabsLogo " />
+                // <img src={polyientLabsLogo} alt="polyientLabsLogo " />
               </Col>
-            </Row>
+            </Row>*/}
           </QueueAnim>
         </OverPack>
       </div>
